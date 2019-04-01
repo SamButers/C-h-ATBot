@@ -1,0 +1,129 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "text": "sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cya"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Sphynx",
+            "entity": "cat"
+          }
+        ],
+        "text": "Tell me about Sphynx"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Bambino",
+            "entity": "cat"
+          }
+        ],
+        "text": "Give me information on the Bambino cat"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Ragdoll",
+            "entity": "cat"
+          }
+        ],
+        "text": "Show me info about the Ragdoll breed"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "inform",
+        "text": "Give me info on a cat"
+      },
+      {
+        "intent": "inform",
+        "text": "I want to know about a cat."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "Russian Blue",
+            "entity": "cat"
+          }
+        ],
+        "text": "Could you give me information on the Russian Blue cat?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
