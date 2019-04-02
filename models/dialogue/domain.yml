@@ -1,0 +1,35 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_cat
+- actions.ActionInformCat
+config:
+  store_entities_as_slots: true
+entities:
+- cat
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- inform:
+    use_entities: true
+slots:
+  cat:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_cat:
+  - text: What cat breed are we talking about?
+  - text: Could you specify the breed for me?
+  - text: Pardon me, but I request that you state the cat breed first.
+  utter_goodbye:
+  - text: Farewell, human.
+  - text: Goodbye.
+  utter_greet:
+  - text: Hello, human. How could I assist you today?
+  - text: Hello there. How can my services be of use today?

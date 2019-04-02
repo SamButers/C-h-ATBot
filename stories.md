@@ -12,4 +12,4 @@
 	
 ## story 04
 * inform
-	- action_inform_cat
+	- actions.ActionInformCat
