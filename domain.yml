@@ -1,0 +1,31 @@
+slots:
+    cat:
+        type: text
+        
+intents:
+    - greet
+    - goodbye
+    - inform
+    
+entities:
+    - cat
+
+templates:
+    utter_greet:
+        - 'Hello, human. How could I assist you today?'
+        - 'Hello there. How can my services be of use today?'
+        
+    utter_goodbye:
+        - 'Farewell, human.'
+        - 'Goodbye.'
+        
+    utter_ask_cat:
+        - 'What cat breed are we talking about?'
+        - 'Could you specify the breed for me?'
+        - 'Pardon me, but I request that you state the cat breed first.'
+        
+actions:
+    - utter_greet
+    - utter_goodbye
+    - utter_ask_cat
+    - actions.ActionInformCat
