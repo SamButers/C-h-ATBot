@@ -1,6 +1,7 @@
 ![top](https://i.imgur.com/ntraO30.png)
 
-<p align=center>Le Chat, the Chatbot from cats, about cats, to cats!</p>
+<p align=center>Le Chat, the Chatbot from cats, about cats, for cats!</p>
+<p align=center>Le Chat is a Chatbot that will give you infurrmation about your fuurvorites cats!</p>
 
 # How to use
 To run the Rasa Core, use the following command:
